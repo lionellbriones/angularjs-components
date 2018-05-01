@@ -1,0 +1,4 @@
+<span ng-repeat="entry in model.entries track by $index">
+    <span class="glyphicon {{entry}}"
+        ng-click="model.setRating({value: $index + 1})"></span>
+</span>
